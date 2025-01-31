@@ -1,5 +1,8 @@
 ---
-title: EBOOKS
-description: Books
+title: E Books
+description: Explore our library of Ebooks
 ---
-# HEY WELCOME WELCOME TO EBOOKS
+
+
+### E BOOKS
+Explore our library of Ebooks!

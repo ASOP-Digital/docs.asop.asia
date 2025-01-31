@@ -16,13 +16,24 @@ export default defineConfig({
 				blueSky: 'https://url.asop.asia/bsky.html',
 
 			},
+			favicon: '/favicon.png',
 			sidebar: [
 				{
 					label: 'Products',
 					autogenerate: { directory: 'products' },
 				},
+				
 				{
-					label: 'devs',
+					label: 'Free Resources',
+					autogenerate: { directory: 'FREE RESOURCES' },
+				},
+
+				{
+					label: 'Frequently Asked Questions',
+					autogenerate: { directory: 'Faq' },
+				},
+				{
+					label: 'developer docs',
 					autogenerate: { directory: 'devs' },
 				},
 			],
