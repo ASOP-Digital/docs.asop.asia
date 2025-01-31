@@ -22,3 +22,8 @@ Fork
 Fork @ https://url.asop.asia/share/docs.html
 
 FOrk @ https://github.com/Andrewgxgx/docs.asop.asia
+
+
+# OPEN TO CONTRIBUTION
+- FIx grammer and typos
+- other else leave it
