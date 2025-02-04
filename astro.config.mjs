@@ -8,6 +8,7 @@ export default defineConfig({
 		
 		starlight({
 			title: 'ASOP Digital',
+			disable404Route: false,
 			social: {
 				github: 'https://github.com/ASOP-Digital',
 				facebook: 'https://url.asop.asia/facebook.html',
@@ -16,6 +17,7 @@ export default defineConfig({
 				blueSky: 'https://url.asop.asia/bsky.html',
 
 			},
+			defaultLocale: 'en',
 			favicon: '/favicon.png',
 			sidebar: [
 				{
@@ -37,7 +39,7 @@ export default defineConfig({
 					autogenerate: { directory: 'devs' },
 				},
 			],
-			pagefind: false, // Disable Pagefind
+			pagefind: false, // Disable Pagefind / Search 
 		}),
 	],
 });
