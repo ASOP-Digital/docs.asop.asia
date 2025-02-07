@@ -2,7 +2,7 @@
 title: VPN services
 description: Our vpn servers for all your needs
 ---
-import {LinkButton, Card, CardGrid, Aside } from '@astrojs/starlight/components';
+import {LinkButton, Card, CardGrid, Aside, Badge } from '@astrojs/starlight/components';
 
 
 
@@ -57,7 +57,7 @@ import {LinkButton, Card, CardGrid, Aside } from '@astrojs/starlight/components'
 
 <Card>
     ### Managed B2 Plan
-        <h5 style="color:red">Best Value / Popular </h5>
+            <Badge text="Popular / Best Value" variant="tip" />
     - Dedicated Server - managed by us
     - ~~200,000~~ 85,000 kyat / month
         -  <span style="color:red"> **57% discount**</span>
@@ -118,6 +118,7 @@ import {LinkButton, Card, CardGrid, Aside } from '@astrojs/starlight/components'
 
 <Card>
     ### Enterprise Plan
+                <Badge text="Best Value" variant="tip" />
     - Dedicated Powerful Server
         - up to 64 core cpu & 60 GB RAM  
     - For pricing, please contact us.
