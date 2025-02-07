@@ -2,20 +2,25 @@
 title: Products & services
 description: Products
 ---
+import {LinkButton, Card, CardGrid, Aside, Badge, Tabs, TabItem, LinkCard } from '@astrojs/starlight/components';
+
 
 ## ASOP Digital
 **One of the best digital product & service provider in Burma**
 
 ### Our Digital Product Collection 
-- [E-books](./ebooks/)
-- [Templates](./Templates/)
-- [AI Prompts](./AI%20Prompts/)
+
+    <LinkCard title="E-Books" href="./ebooks/" description="We offer a collection of ebooks." />
+    <LinkCard title='Templates' href="./Templates/" description='From power point templates to code templates, we offer a collection of templates!'/>
+    <LinkCard title="AI Prompts" href="./ai-prompts" description="See our collection of AI Prompts!" />
 
 
 
 ### Our Digital Services Collection
-- [Outline VPN Server](./vpn/)
+
+    <LinkCard title="OutLine VPN Servers" href="./vpn" description="See our budget friendly vpn servers for organizations!" />
 
 
 ## Our Free Services & Products collection!
-- [See The Free Collection HERE!](../free-resources/)
+
+    <LinkCard title="See Our Free Collection Here!" href="../free-resources" description="from e-books to AI prompts, we offer a collection of resources for free" />
