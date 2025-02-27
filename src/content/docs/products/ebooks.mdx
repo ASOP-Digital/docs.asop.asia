@@ -19,8 +19,27 @@ import {LinkButton, Card, CardGrid, Aside, Badge, LinkCard } from '@astrojs/star
     - **<Badge text='red label' variant='danger' size='medium'/>** = 4500 kyat per book
     - **<Badge text='Purple label' variant='tip' size='medium'/>** = custom prices
 
+## Book series
+    <LinkCard title="Harry Potter Series" href="#harry-potter" description="Fan Favourite Harry Potter Books!" />
 
-### Bundle Discounts
+## Our Bundles
+    <LinkCard title="General Bundles" href="#general-bundles" description="See Our General Bundles" />
+
+
+## Our Book Collection 
+<LinkCard title='ASOP production' href="#asop-production" description='Our own published books!'/>
+<CardGrid>
+    <LinkCard title='Romance' href="#romance" description=''/>
+    <LinkCard title='Strategy' href="#strategy" description=''/>
+    <LinkCard title='Fantsy' href="#fantsy" description=''/>
+
+</CardGrid>
+
+
+
+## Bundles 
+
+### General Bundles
 <CardGrid stagger>
 <Card title='Buy 1 Get 1' icon='rocket'>
     <Badge text="LIMITED OFFER" variant="tip" />
@@ -49,18 +68,7 @@ import {LinkButton, Card, CardGrid, Aside, Badge, LinkCard } from '@astrojs/star
 </CardGrid>
 
 
-## Our Book Collection 
-<LinkCard title='ASOP production' href="#asop-production" description='Our own published ebooks!'/>
-<CardGrid>
-    <LinkCard title='Romance' href="#romance" description=''/>
-    <LinkCard title='Strategy' href="#strategy" description=''/>
-    <LinkCard title='Fantsy' href="#fantsy" description=''/>
-
-</CardGrid>
-
-## Book series
-    <LinkCard title="Harry Potter Series" href="#harry-potter" description="Fan Favourite Harry Potter Books!" />
-
+## Our Book COllection
 
 ### ASOP Production
 
@@ -83,9 +91,20 @@ import {LinkButton, Card, CardGrid, Aside, Badge, LinkCard } from '@astrojs/star
     - E-ID: `E000-001`
     </Card>
 
+<Card title="">
+    ![]()
+    <Badge text='s' variant='note'size='small' />
+    - Release Date - 
+    - ISBN - 
+    - Author - 
+    - Rating - <span style="color:#F6BE00">★★★★</span>
+    - E-ID: `E000-000`
+</Card>
 
 
 </CardGrid>
+
+
 
 ### Strategy
 
@@ -318,4 +337,31 @@ import {LinkButton, Card, CardGrid, Aside, Badge, LinkCard } from '@astrojs/star
 </Card>
 
 </CardGrid>
+
+
+## Frequently Asked Questions 
+---
+
+### Payment Related Questions
+- Please view our General FAQ For most of the payment related questions
+
+<LinkButton href="../../../faq/#payment-related-questions">Go to General FAQ</LinkButton>
+
+<details>
+  <summary id="payment-method">How are payments made? / What are the available Payment Methods?</summary>
+    To view how payments are made please [Visit This Page](../../../faq/#payment-methods-faq1)
+</details>
+
+<details>
+    <summary id="upfront-pay"> Do I have to pay upfront? </summary>
+    Short Answer is yes, you have to pay upfront. 
+    - If you have made a contract with us for 6 months, you must pay upfront.
+</details>
+
+<details>
+    <summary id="form"> How do i subscribe to a Plan? </summary>
+    - please contact us directly, and tell us what plan you want.
+</details>
+
+
 
