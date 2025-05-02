@@ -11,20 +11,24 @@ export default defineConfig({
 		starlight({
 			title: 'ASOP Digital',
 			disable404Route: false,
-			social: {
-				github: 'https://github.com/ASOP-Digital',
-				facebook: 'https://url.asop.asia/facebook.html',
-				discord: 'https://url.asop.asia/discord.html',
-				telegram: 'https://url.asop.asia/telegram.html',
-				blueSky: 'https://url.asop.asia/bsky.html',
 
-			},
+			social: [
+				{icon: 'github', label: 'GitHub', href: "https://github.com/ASOP-Digital"},
+				{icon: 'facebook', label: 'Facebook', href: "url.asop.asia/facebook.html"},
+				{icon: 'discord', label: 'Discord', href: "url.asop.asia/discord.html"},
+				{icon: 'telegram', label: 'Telegram', href: "url.asop.asia/telegram.html"},
+				{icon: 'blueSky', label: 'Blue Sky', href: "url.asop.asia/bsky.html"},
+			],
 			defaultLocale: 'en',
 			favicon: '/favicon.png',
 			sidebar: [
 				{
 					label: 'Products',
 					autogenerate: { directory: 'products' },
+				},
+				{
+					label: 'Services',
+					autogenerate: { directory: 'services' },
 				},
 				
 				{
